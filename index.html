@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AARV Mobile Shop offers premium smartphones, smart accessories, and the best mobile deals."
+    />
+    <title>AARV Mobile Shop | Premium Phones & Accessories</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <div class="brand" aria-label="AARV Mobile Shop logo">
+          <div class="brand-mark">A</div>
+          <div>
+            <span class="brand-name">AARV</span>
+            <small>Mobile Shop</small>
+          </div>
+        </div>
+
+        <nav class="navbar" id="navbar">
+          <a href="#home">Home</a>
+          <a href="#categories">Categories</a>
+          <a href="#products">Products</a>
+          <a href="#offers">Offers</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="ghost-btn">Login</button>
+          <button class="primary-btn">Shop Now</button>
+          <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <span class="eyebrow">Smart tech. Better deals.</span>
+            <h1>Power your day with the latest mobile tech.</h1>
+            <p>
+              Find premium smartphones, smart accessories, and exclusive offers designed for
+              modern lifestyles and everyday convenience.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#products" class="primary-btn">Explore Deals</a>
+              <a href="#contact" class="secondary-btn">Talk to Expert</a>
+            </div>
+
+            <div class="stat-row">
+              <div>
+                <strong>10k+</strong>
+                <span>Happy buyers</span>
+              </div>
+              <div>
+                <strong>150+</strong>
+                <span>Models available</span>
+              </div>
+              <div>
+                <strong>4.8/5</strong>
+                <span>Customer rating</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="Phone product showcase">
+            <div class="product-showcase">
+              <div class="phone-card large-card">
+                <div class="phone-screen">
+                  <span class="mini-tag">New</span>
+                  <img
+                    src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=80"
+                    alt="New smartphone"
+                  />
+                </div>
+                <div class="phone-info">
+                  <div>
+                    <h3>iPhone 15 Pro</h3>
+                    <p>From ₹1,29,999</p>
+                  </div>
+                  <span class="badge">Save 12%</span>
+                </div>
+              </div>
+
+              <div class="floating-card small-card">
+                <div class="icon-wrap">🎧</div>
+                <div>
+                  <strong>AirPods Pro</strong>
+                  <span>₹19,999</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="logos-strip">
+        <div class="container brands">
+          <span>Apple</span>
+          <span>Samsung</span>
+          <span>OnePlus</span>
+          <span>Realme</span>
+          <span>Xiaomi</span>
+          <span>Nothing</span>
+        </div>
+      </section>
+
+      <section class="categories" id="categories">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Shop by category</span>
+            <h2>Smart choices for every lifestyle</h2>
+          </div>
+          <div class="category-grid" id="categoryGrid"></div>
+        </div>
+      </section>
+
+      <section class="products" id="products">
+        <div class="container">
+          <div class="section-heading split-head">
+            <div>
+              <span class="eyebrow">Featured collection</span>
+              <h2>Best selling mobile gadgets</h2>
+            </div>
+            <a href="#contact" class="view-link">View all products</a>
+          </div>
+          <div class="products-grid" id="productsGrid"></div>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Why choose us</span>
+            <h2>Built for trust, quality, and convenience</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-icon">⚡</div>
+              <h3>Fast delivery</h3>
+              <p>Quick dispatch and secure delivery across India with verified packaging.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon">🛡️</div>
+              <h3>Original products</h3>
+              <p>Every device and accessory is quality checked for genuine performance.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon">💬</div>
+              <h3>Expert support</h3>
+              <p>Our team helps you choose the right phone with honest guidance and care.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="offer-banner" id="offers">
+        <div class="container offer-box">
+          <div>
+            <span class="eyebrow">Limited-time offer</span>
+            <h2>Up to 30% off on premium smartphones</h2>
+          </div>
+          <a href="#products" class="primary-btn">Claim Offer</a>
+        </div>
+      </section>
+
+      <section class="testimonials" id="reviews">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Customer love</span>
+            <h2>What our customers say</h2>
+          </div>
+
+          <div class="testimonial-grid">
+            <article class="testimonial-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “Excellent prices and an even better shopping experience. The team was helpful and
+                patient from start to finish.”
+              </p>
+              <div class="author">
+                <strong>Rohit S.</strong>
+                <span>Verified buyer</span>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “I bought a premium smartphone and the product quality was exactly as promised.
+                Highly recommended for anyone shopping smart.”
+              </p>
+              <div class="author">
+                <strong>Neha P.</strong>
+                <span>Tech lover</span>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “Great collection, dependable support, and quick service. I will definitely come back
+                for my next purchase.”
+              </p>
+              <div class="author">
+                <strong>Vikas M.</strong>
+                <span>Repeat customer</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container contact-box">
+          <div>
+            <span class="eyebrow">Stay connected</span>
+            <h2>Need help choosing the right mobile?</h2>
+          </div>
+
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Enter your email" aria-label="Email address" />
+            <button type="submit" class="primary-btn">Get Updates</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <div class="brand footer-brand">
+            <div class="brand-mark">A</div>
+            <div>
+              <span class="brand-name">AARV</span>
+              <small>Mobile Shop</small>
+            </div>
+          </div>
+          <p>Smartphones, accessories, and service you can trust.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#products">Products</a>
+          <a href="#offers">Offers</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-meta">
+          <p>📍 24 Market Road, City Center</p>
+          <p>📞 +91 98765 43210</p>
+        </div>
+      </div>
+
+      <div class="container copyright">
+        <p>© <span id="year"></span> AARV Mobile Shop. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
