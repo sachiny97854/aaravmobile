@@ -58,6 +58,15 @@ const products = [
     price: '₹49,999',
     oldPrice: '₹59,999',
   },
+  {
+    name: 'Nothing Phone 33333',
+    category: 'New Arrival T',
+    rating: 3,
+    image:
+      'https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=900&q=80',
+    price: '₹99,999',
+    oldPrice: '₹159,999',
+  },
 ];
 
 function renderCategories() {
